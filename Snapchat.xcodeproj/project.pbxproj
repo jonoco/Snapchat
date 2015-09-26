@@ -13,6 +13,25 @@
 		BBA5EFEE1B166559008BA766 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBA5EFED1B166559008BA766 /* Images.xcassets */; };
 		BBA5EFF11B166559008BA766 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBA5EFEF1B166559008BA766 /* LaunchScreen.xib */; };
 		BBA5EFFD1B166559008BA766 /* SnapchatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA5EFFC1B166559008BA766 /* SnapchatTests.swift */; };
+		BBA5F0081B166D6C008BA766 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA5F0061B166D6B008BA766 /* Bolts.framework */; };
+		BBA5F0091B166D6C008BA766 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA5F0071B166D6B008BA766 /* Parse.framework */; };
+		BBA5F00C1B166DCC008BA766 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA5F00B1B166DCC008BA766 /* AudioToolbox.framework */; };
+		BBA5F00E1B166DD1008BA766 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA5F00D1B166DD1008BA766 /* CFNetwork.framework */; };
+		BBA5F0101B166DD8008BA766 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA5F00F1B166DD8008BA766 /* CoreGraphics.framework */; };
+		BBA5F0121B166DDF008BA766 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA5F0111B166DDF008BA766 /* CoreLocation.framework */; };
+		BBA5F0141B166DEB008BA766 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA5F0131B166DEB008BA766 /* MobileCoreServices.framework */; };
+		BBA5F0161B166DF5008BA766 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA5F0151B166DF5008BA766 /* QuartzCore.framework */; };
+		BBA5F0181B166E03008BA766 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA5F0171B166E03008BA766 /* Security.framework */; };
+		BBA5F01A1B166E0B008BA766 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA5F0191B166E0B008BA766 /* StoreKit.framework */; };
+		BBA5F01C1B166E15008BA766 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA5F01B1B166E15008BA766 /* SystemConfiguration.framework */; };
+		BBA5F01E1B166E21008BA766 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA5F01D1B166E21008BA766 /* libz.dylib */; };
+		BBA5F0201B166E2B008BA766 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA5F01F1B166E2B008BA766 /* libsqlite3.dylib */; };
+		BBA5F0241B167BEE008BA766 /* AddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA5F0231B167BEE008BA766 /* AddFriendViewController.swift */; };
+		BBA5F0261B167DA8008BA766 /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA5F0251B167DA8008BA766 /* FriendsTableViewController.swift */; };
+		BBA5F0281B16A6AE008BA766 /* ghost.png in Resources */ = {isa = PBXBuildFile; fileRef = BBA5F0271B16A6AE008BA766 /* ghost.png */; };
+		BBA5F02A1B16A6F6008BA766 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA5F0291B16A6F6008BA766 /* ChatViewController.swift */; };
+		BBA5F02C1B16B26C008BA766 /* CompressedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA5F02B1B16B26C008BA766 /* CompressedImage.swift */; };
+		BBEC882F1BB73E9C000CE9CB /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEC882E1BB73E9C000CE9CB /* Keys.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +55,25 @@
 		BBA5EFF61B166559008BA766 /* SnapchatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapchatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBA5EFFB1B166559008BA766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBA5EFFC1B166559008BA766 /* SnapchatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapchatTests.swift; sourceTree = "<group>"; };
+		BBA5F0061B166D6B008BA766 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		BBA5F0071B166D6B008BA766 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		BBA5F00B1B166DCC008BA766 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BBA5F00D1B166DD1008BA766 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		BBA5F00F1B166DD8008BA766 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BBA5F0111B166DDF008BA766 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BBA5F0131B166DEB008BA766 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		BBA5F0151B166DF5008BA766 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BBA5F0171B166E03008BA766 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BBA5F0191B166E0B008BA766 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		BBA5F01B1B166E15008BA766 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BBA5F01D1B166E21008BA766 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		BBA5F01F1B166E2B008BA766 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		BBA5F0231B167BEE008BA766 /* AddFriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFriendViewController.swift; sourceTree = "<group>"; };
+		BBA5F0251B167DA8008BA766 /* FriendsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsTableViewController.swift; sourceTree = "<group>"; };
+		BBA5F0271B16A6AE008BA766 /* ghost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ghost.png; sourceTree = "<group>"; };
+		BBA5F0291B16A6F6008BA766 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		BBA5F02B1B16B26C008BA766 /* CompressedImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompressedImage.swift; sourceTree = "<group>"; };
+		BBEC882E1BB73E9C000CE9CB /* Keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Keys.swift; path = ../Keys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +81,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBA5F0201B166E2B008BA766 /* libsqlite3.dylib in Frameworks */,
+				BBA5F01E1B166E21008BA766 /* libz.dylib in Frameworks */,
+				BBA5F01C1B166E15008BA766 /* SystemConfiguration.framework in Frameworks */,
+				BBA5F01A1B166E0B008BA766 /* StoreKit.framework in Frameworks */,
+				BBA5F0181B166E03008BA766 /* Security.framework in Frameworks */,
+				BBA5F0161B166DF5008BA766 /* QuartzCore.framework in Frameworks */,
+				BBA5F0141B166DEB008BA766 /* MobileCoreServices.framework in Frameworks */,
+				BBA5F0121B166DDF008BA766 /* CoreLocation.framework in Frameworks */,
+				BBA5F0101B166DD8008BA766 /* CoreGraphics.framework in Frameworks */,
+				BBA5F00E1B166DD1008BA766 /* CFNetwork.framework in Frameworks */,
+				BBA5F00C1B166DCC008BA766 /* AudioToolbox.framework in Frameworks */,
+				BBA5F0091B166D6C008BA766 /* Parse.framework in Frameworks */,
+				BBA5F0081B166D6C008BA766 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +113,7 @@
 				BBA5EFE31B166559008BA766 /* Snapchat */,
 				BBA5EFF91B166559008BA766 /* SnapchatTests */,
 				BBA5EFE21B166559008BA766 /* Products */,
+				BBA5F00A1B166D70008BA766 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,9 +129,15 @@
 		BBA5EFE31B166559008BA766 /* Snapchat */ = {
 			isa = PBXGroup;
 			children = (
+				BBA5EFEA1B166559008BA766 /* Main.storyboard */,
+				BBA5F0271B16A6AE008BA766 /* ghost.png */,
+				BBEC882E1BB73E9C000CE9CB /* Keys.swift */,
 				BBA5EFE61B166559008BA766 /* AppDelegate.swift */,
 				BBA5EFE81B166559008BA766 /* ViewController.swift */,
-				BBA5EFEA1B166559008BA766 /* Main.storyboard */,
+				BBA5F0291B16A6F6008BA766 /* ChatViewController.swift */,
+				BBA5F02B1B16B26C008BA766 /* CompressedImage.swift */,
+				BBA5F0251B167DA8008BA766 /* FriendsTableViewController.swift */,
+				BBA5F0231B167BEE008BA766 /* AddFriendViewController.swift */,
 				BBA5EFED1B166559008BA766 /* Images.xcassets */,
 				BBA5EFEF1B166559008BA766 /* LaunchScreen.xib */,
 				BBA5EFE41B166559008BA766 /* Supporting Files */,
@@ -110,6 +168,26 @@
 				BBA5EFFB1B166559008BA766 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BBA5F00A1B166D70008BA766 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBA5F01F1B166E2B008BA766 /* libsqlite3.dylib */,
+				BBA5F01D1B166E21008BA766 /* libz.dylib */,
+				BBA5F01B1B166E15008BA766 /* SystemConfiguration.framework */,
+				BBA5F0191B166E0B008BA766 /* StoreKit.framework */,
+				BBA5F0171B166E03008BA766 /* Security.framework */,
+				BBA5F0151B166DF5008BA766 /* QuartzCore.framework */,
+				BBA5F0131B166DEB008BA766 /* MobileCoreServices.framework */,
+				BBA5F0111B166DDF008BA766 /* CoreLocation.framework */,
+				BBA5F00F1B166DD8008BA766 /* CoreGraphics.framework */,
+				BBA5F00D1B166DD1008BA766 /* CFNetwork.framework */,
+				BBA5F00B1B166DCC008BA766 /* AudioToolbox.framework */,
+				BBA5F0061B166D6B008BA766 /* Bolts.framework */,
+				BBA5F0071B166D6B008BA766 /* Parse.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,11 +234,14 @@
 		BBA5EFD91B166559008BA766 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0620;
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Joshua Cox";
 				TargetAttributes = {
 					BBA5EFE01B166559008BA766 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = WGC449FRA8;
 					};
 					BBA5EFF51B166559008BA766 = {
 						CreatedOnToolsVersion = 6.2;
@@ -193,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBA5EFEC1B166559008BA766 /* Main.storyboard in Resources */,
+				BBA5F0281B16A6AE008BA766 /* ghost.png in Resources */,
 				BBA5EFF11B166559008BA766 /* LaunchScreen.xib in Resources */,
 				BBA5EFEE1B166559008BA766 /* Images.xcassets in Resources */,
 			);
@@ -212,7 +294,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBA5F02C1B16B26C008BA766 /* CompressedImage.swift in Sources */,
+				BBA5F0241B167BEE008BA766 /* AddFriendViewController.swift in Sources */,
 				BBA5EFE91B166559008BA766 /* ViewController.swift in Sources */,
+				BBA5F0261B167DA8008BA766 /* FriendsTableViewController.swift in Sources */,
+				BBEC882F1BB73E9C000CE9CB /* Keys.swift in Sources */,
+				BBA5F02A1B16A6F6008BA766 /* ChatViewController.swift in Sources */,
 				BBA5EFE71B166559008BA766 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +362,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -289,7 +377,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -325,7 +413,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -336,9 +424,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Snapchat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JoshuaCox.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -346,9 +443,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Snapchat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JoshuaCox.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -366,6 +472,7 @@
 				);
 				INFOPLIST_FILE = SnapchatTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JoshuaCox.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snapchat.app/Snapchat";
 			};
@@ -381,6 +488,7 @@
 				);
 				INFOPLIST_FILE = SnapchatTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JoshuaCox.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snapchat.app/Snapchat";
 			};
@@ -405,6 +513,7 @@
 				BBA5F0021B166559008BA766 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BBA5F0031B166559008BA766 /* Build configuration list for PBXNativeTarget "SnapchatTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +522,7 @@
 				BBA5F0051B166559008BA766 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
