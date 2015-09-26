@@ -31,7 +31,7 @@
 		BBA5F0281B16A6AE008BA766 /* ghost.png in Resources */ = {isa = PBXBuildFile; fileRef = BBA5F0271B16A6AE008BA766 /* ghost.png */; };
 		BBA5F02A1B16A6F6008BA766 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA5F0291B16A6F6008BA766 /* ChatViewController.swift */; };
 		BBA5F02C1B16B26C008BA766 /* CompressedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA5F02B1B16B26C008BA766 /* CompressedImage.swift */; };
-		BBEC882F1BB73E9C000CE9CB /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEC882E1BB73E9C000CE9CB /* Keys.swift */; settings = {ASSET_TAGS = (); }; };
+		BBEC88351BB743BD000CE9CB /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEC88341BB743BD000CE9CB /* Keys.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,7 +73,7 @@
 		BBA5F0271B16A6AE008BA766 /* ghost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ghost.png; sourceTree = "<group>"; };
 		BBA5F0291B16A6F6008BA766 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		BBA5F02B1B16B26C008BA766 /* CompressedImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompressedImage.swift; sourceTree = "<group>"; };
-		BBEC882E1BB73E9C000CE9CB /* Keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Keys.swift; path = ../Keys.swift; sourceTree = "<group>"; };
+		BBEC88341BB743BD000CE9CB /* Keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,10 +131,10 @@
 			children = (
 				BBA5EFEA1B166559008BA766 /* Main.storyboard */,
 				BBA5F0271B16A6AE008BA766 /* ghost.png */,
-				BBEC882E1BB73E9C000CE9CB /* Keys.swift */,
 				BBA5EFE61B166559008BA766 /* AppDelegate.swift */,
 				BBA5EFE81B166559008BA766 /* ViewController.swift */,
 				BBA5F0291B16A6F6008BA766 /* ChatViewController.swift */,
+				BBEC88341BB743BD000CE9CB /* Keys.swift */,
 				BBA5F02B1B16B26C008BA766 /* CompressedImage.swift */,
 				BBA5F0251B167DA8008BA766 /* FriendsTableViewController.swift */,
 				BBA5F0231B167BEE008BA766 /* AddFriendViewController.swift */,
@@ -295,10 +295,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBA5F02C1B16B26C008BA766 /* CompressedImage.swift in Sources */,
+				BBEC88351BB743BD000CE9CB /* Keys.swift in Sources */,
 				BBA5F0241B167BEE008BA766 /* AddFriendViewController.swift in Sources */,
 				BBA5EFE91B166559008BA766 /* ViewController.swift in Sources */,
 				BBA5F0261B167DA8008BA766 /* FriendsTableViewController.swift in Sources */,
-				BBEC882F1BB73E9C000CE9CB /* Keys.swift in Sources */,
 				BBA5F02A1B16A6F6008BA766 /* ChatViewController.swift in Sources */,
 				BBA5EFE71B166559008BA766 /* AppDelegate.swift in Sources */,
 			);
